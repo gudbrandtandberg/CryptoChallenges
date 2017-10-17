@@ -1,0 +1,1325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		421AAFFA1CE3695E000CF23A /* challenge1.c in Sources */ = {isa = PBXBuildFile; fileRef = 42BB0ED91CCCCBC800D9BDAF /* challenge1.c */; };
+		421AAFFB1CE369EF000CF23A /* CryptoUtils.c in Sources */ = {isa = PBXBuildFile; fileRef = 42BB0EE61CCE0E8F00D9BDAF /* CryptoUtils.c */; };
+		421AB0071CE42DDF000CF23A /* CryptoUtils.c in Sources */ = {isa = PBXBuildFile; fileRef = 42BB0EE61CCE0E8F00D9BDAF /* CryptoUtils.c */; };
+		421AB0081CE42DE7000CF23A /* challenge2.c in Sources */ = {isa = PBXBuildFile; fileRef = 42BB0EDF1CCCCDA700D9BDAF /* challenge2.c */; };
+		421AB0141CE42FD5000CF23A /* CryptoUtils.c in Sources */ = {isa = PBXBuildFile; fileRef = 42BB0EE61CCE0E8F00D9BDAF /* CryptoUtils.c */; };
+		421AB0151CE42FD9000CF23A /* challenge3.c in Sources */ = {isa = PBXBuildFile; fileRef = 42BB0EE11CCCCDDC00D9BDAF /* challenge3.c */; };
+		421AB0181CE437ED000CF23A /* CryptoChallenges.c in Sources */ = {isa = PBXBuildFile; fileRef = 421AB0171CE437ED000CF23A /* CryptoChallenges.c */; };
+		421AB0191CE437ED000CF23A /* CryptoChallenges.c in Sources */ = {isa = PBXBuildFile; fileRef = 421AB0171CE437ED000CF23A /* CryptoChallenges.c */; };
+		421AB01A1CE437ED000CF23A /* CryptoChallenges.c in Sources */ = {isa = PBXBuildFile; fileRef = 421AB0171CE437ED000CF23A /* CryptoChallenges.c */; };
+		421AB0261CE44676000CF23A /* CryptoChallenges.c in Sources */ = {isa = PBXBuildFile; fileRef = 421AB0171CE437ED000CF23A /* CryptoChallenges.c */; };
+		421AB0271CE4467A000CF23A /* CryptoUtils.c in Sources */ = {isa = PBXBuildFile; fileRef = 42BB0EE61CCE0E8F00D9BDAF /* CryptoUtils.c */; };
+		421AB0281CE4467D000CF23A /* challenge4.c in Sources */ = {isa = PBXBuildFile; fileRef = 42BB0EE31CCCCDEC00D9BDAF /* challenge4.c */; };
+		421AB0341CE44DE6000CF23A /* CryptoChallenges.c in Sources */ = {isa = PBXBuildFile; fileRef = 421AB0171CE437ED000CF23A /* CryptoChallenges.c */; };
+		421AB0351CE44DE9000CF23A /* CryptoUtils.c in Sources */ = {isa = PBXBuildFile; fileRef = 42BB0EE61CCE0E8F00D9BDAF /* CryptoUtils.c */; };
+		421AB0361CE44DEE000CF23A /* challenge5.c in Sources */ = {isa = PBXBuildFile; fileRef = 42BB0EDD1CCCCD4600D9BDAF /* challenge5.c */; };
+		421AB0421CE45282000CF23A /* CryptoChallenges.c in Sources */ = {isa = PBXBuildFile; fileRef = 421AB0171CE437ED000CF23A /* CryptoChallenges.c */; };
+		421AB0431CE45286000CF23A /* CryptoUtils.c in Sources */ = {isa = PBXBuildFile; fileRef = 42BB0EE61CCE0E8F00D9BDAF /* CryptoUtils.c */; };
+		421AB0441CE4528B000CF23A /* challenge6.c in Sources */ = {isa = PBXBuildFile; fileRef = 42BB0EDB1CCCCC9900D9BDAF /* challenge6.c */; };
+		421AB0511CE47498000CF23A /* challenge7.c in Sources */ = {isa = PBXBuildFile; fileRef = 421AB0501CE47498000CF23A /* challenge7.c */; };
+		421AB0521CE474C4000CF23A /* CryptoUtils.c in Sources */ = {isa = PBXBuildFile; fileRef = 42BB0EE61CCE0E8F00D9BDAF /* CryptoUtils.c */; };
+		421AB0531CE474CB000CF23A /* CryptoChallenges.c in Sources */ = {isa = PBXBuildFile; fileRef = 421AB0171CE437ED000CF23A /* CryptoChallenges.c */; };
+		421AB0561CE475F6000CF23A /* 4.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 42B961F51CBCE4F500E7413B /* 4.txt */; };
+		421AB0581CE4762F000CF23A /* 7.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 421AB0551CE475BE000CF23A /* 7.txt */; };
+		421AB05F1CE4D006000CF23A /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 421AB05E1CE4D006000CF23A /* libssl.a */; };
+		421AB0611CE4D59D000CF23A /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 421AB0601CE4D59D000CF23A /* libcrypto.a */; };
+		421AB0701CE5745F000CF23A /* CryptoChallenges.c in Sources */ = {isa = PBXBuildFile; fileRef = 421AB0171CE437ED000CF23A /* CryptoChallenges.c */; };
+		421AB0711CE57463000CF23A /* challenge8.c in Sources */ = {isa = PBXBuildFile; fileRef = 421AB0621CE573B5000CF23A /* challenge8.c */; };
+		421AB0721CE57467000CF23A /* CryptoUtils.c in Sources */ = {isa = PBXBuildFile; fileRef = 42BB0EE61CCE0E8F00D9BDAF /* CryptoUtils.c */; };
+		421AB0771CE6F424000CF23A /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 421AB0601CE4D59D000CF23A /* libcrypto.a */; };
+		421AB0781CE6F426000CF23A /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 421AB05E1CE4D006000CF23A /* libssl.a */; };
+		421AB0841CE6F7A1000CF23A /* CryptoUtils.c in Sources */ = {isa = PBXBuildFile; fileRef = 42BB0EE61CCE0E8F00D9BDAF /* CryptoUtils.c */; };
+		421AB0851CE6F7A5000CF23A /* CryptoChallenges.c in Sources */ = {isa = PBXBuildFile; fileRef = 421AB0171CE437ED000CF23A /* CryptoChallenges.c */; };
+		421AB0871CE6F7C2000CF23A /* challenge9.c in Sources */ = {isa = PBXBuildFile; fileRef = 421AB0861CE6F7C2000CF23A /* challenge9.c */; };
+		421AB0921CE70D8F000CF23A /* OpenSSLFunctions.c in Sources */ = {isa = PBXBuildFile; fileRef = 421AB08F1CE70CD1000CF23A /* OpenSSLFunctions.c */; };
+		421AB09F1CE70DB6000CF23A /* challenge10.c in Sources */ = {isa = PBXBuildFile; fileRef = 421AB08A1CE6FF3A000CF23A /* challenge10.c */; };
+		421AB0A01CE70DBA000CF23A /* OpenSSLFunctions.c in Sources */ = {isa = PBXBuildFile; fileRef = 421AB08F1CE70CD1000CF23A /* OpenSSLFunctions.c */; };
+		421AB0A11CE70DBE000CF23A /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 421AB0601CE4D59D000CF23A /* libcrypto.a */; };
+		421AB0A21CE70DC0000CF23A /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 421AB05E1CE4D006000CF23A /* libssl.a */; };
+		421AB0A31CE70FDE000CF23A /* 10.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 421AB08B1CE6FFEF000CF23A /* 10.txt */; };
+		421AB0A41CE71073000CF23A /* 6.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 42BB0ED81CCCCADE00D9BDAF /* 6.txt */; };
+		421AB0A51CE71173000CF23A /* 8.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 421AB0761CE5A218000CF23A /* 8.txt */; };
+		421AB0A61CE711D0000CF23A /* CryptoUtils.c in Sources */ = {isa = PBXBuildFile; fileRef = 42BB0EE61CCE0E8F00D9BDAF /* CryptoUtils.c */; };
+		421AB0A81CE71B57000CF23A /* CryptoChallenges.c in Sources */ = {isa = PBXBuildFile; fileRef = 421AB0171CE437ED000CF23A /* CryptoChallenges.c */; };
+		42ABE9901CED8B2100A4CEA2 /* challenge11.c in Sources */ = {isa = PBXBuildFile; fileRef = 42ABE98F1CED8B2100A4CEA2 /* challenge11.c */; };
+		42ABE99B1CED8B4600A4CEA2 /* challenge12.c in Sources */ = {isa = PBXBuildFile; fileRef = 42ABE99A1CED8B4600A4CEA2 /* challenge12.c */; };
+		42ABE99F1CED8B6800A4CEA2 /* CryptoUtils.c in Sources */ = {isa = PBXBuildFile; fileRef = 42BB0EE61CCE0E8F00D9BDAF /* CryptoUtils.c */; };
+		42ABE9A01CED8B6B00A4CEA2 /* CryptoChallenges.c in Sources */ = {isa = PBXBuildFile; fileRef = 421AB0171CE437ED000CF23A /* CryptoChallenges.c */; };
+		42ABE9A11CED8B6F00A4CEA2 /* OpenSSLFunctions.c in Sources */ = {isa = PBXBuildFile; fileRef = 421AB08F1CE70CD1000CF23A /* OpenSSLFunctions.c */; };
+		42ABE9A21CED8B7800A4CEA2 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 421AB0601CE4D59D000CF23A /* libcrypto.a */; };
+		42ABE9A31CED8B7900A4CEA2 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 421AB05E1CE4D006000CF23A /* libssl.a */; };
+		42ABE9A41CED8B8000A4CEA2 /* CryptoChallenges.c in Sources */ = {isa = PBXBuildFile; fileRef = 421AB0171CE437ED000CF23A /* CryptoChallenges.c */; };
+		42ABE9A51CED8B8400A4CEA2 /* CryptoUtils.c in Sources */ = {isa = PBXBuildFile; fileRef = 42BB0EE61CCE0E8F00D9BDAF /* CryptoUtils.c */; };
+		42ABE9A61CED8B8A00A4CEA2 /* OpenSSLFunctions.c in Sources */ = {isa = PBXBuildFile; fileRef = 421AB08F1CE70CD1000CF23A /* OpenSSLFunctions.c */; };
+		42ABE9A71CED8B8D00A4CEA2 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 421AB0601CE4D59D000CF23A /* libcrypto.a */; };
+		42ABE9A81CED8B8F00A4CEA2 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 421AB05E1CE4D006000CF23A /* libssl.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		421AAFF11CE3694F000CF23A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		421AAFFE1CE42DD3000CF23A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		421AB00B1CE42FCC000CF23A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		421AB01D1CE4466C000CF23A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				421AB0561CE475F6000CF23A /* 4.txt in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		421AB02B1CE44DDC000CF23A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		421AB0391CE4527B000CF23A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				421AB0A41CE71073000CF23A /* 6.txt in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		421AB0471CE4746D000CF23A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				421AB0581CE4762F000CF23A /* 7.txt in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		421AB0671CE57457000CF23A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				421AB0A51CE71173000CF23A /* 8.txt in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		421AB07B1CE6F799000CF23A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		421AB0961CE70DA3000CF23A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				421AB0A31CE70FDE000CF23A /* 10.txt in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42ABE98B1CED8B2100A4CEA2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		42ABE9961CED8B4600A4CEA2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		420A54371CBB4C9C009833EA /* CryptoChallenges.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CryptoChallenges.h; sourceTree = "<group>"; };
+		421AAFF31CE3694F000CF23A /* challenge1.1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = challenge1.1; path = challenge1; sourceTree = BUILT_PRODUCTS_DIR; };
+		421AB0001CE42DD3000CF23A /* challenge1.2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = challenge1.2; path = challenge2; sourceTree = BUILT_PRODUCTS_DIR; };
+		421AB00D1CE42FCC000CF23A /* challenge1.3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = challenge1.3; path = challenge3; sourceTree = BUILT_PRODUCTS_DIR; };
+		421AB0171CE437ED000CF23A /* CryptoChallenges.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CryptoChallenges.c; sourceTree = "<group>"; };
+		421AB01F1CE4466C000CF23A /* challenge1.4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = challenge1.4; path = challenge4; sourceTree = BUILT_PRODUCTS_DIR; };
+		421AB02D1CE44DDC000CF23A /* challenge1.5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = challenge1.5; path = challenge5; sourceTree = BUILT_PRODUCTS_DIR; };
+		421AB03B1CE4527B000CF23A /* challenge1.6 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = challenge1.6; path = challenge6; sourceTree = BUILT_PRODUCTS_DIR; };
+		421AB0491CE4746D000CF23A /* challenge1.7 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = challenge1.7; path = challenge7; sourceTree = BUILT_PRODUCTS_DIR; };
+		421AB0501CE47498000CF23A /* challenge7.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = challenge7.c; sourceTree = "<group>"; };
+		421AB0551CE475BE000CF23A /* 7.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = 7.txt; sourceTree = "<group>"; };
+		421AB05E1CE4D006000CF23A /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = /usr/local/ssl/lib/libssl.a; sourceTree = "<absolute>"; };
+		421AB0601CE4D59D000CF23A /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = /usr/local/ssl/lib/libcrypto.a; sourceTree = "<absolute>"; };
+		421AB0621CE573B5000CF23A /* challenge8.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = challenge8.c; sourceTree = "<group>"; };
+		421AB0691CE57457000CF23A /* challenge1.8 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = challenge1.8; path = challenge8; sourceTree = BUILT_PRODUCTS_DIR; };
+		421AB0761CE5A218000CF23A /* 8.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = 8.txt; sourceTree = "<group>"; };
+		421AB07D1CE6F799000CF23A /* challenge9 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = challenge9; sourceTree = BUILT_PRODUCTS_DIR; };
+		421AB0861CE6F7C2000CF23A /* challenge9.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = challenge9.c; sourceTree = "<group>"; };
+		421AB08A1CE6FF3A000CF23A /* challenge10.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = challenge10.c; sourceTree = "<group>"; };
+		421AB08B1CE6FFEF000CF23A /* 10.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = 10.txt; sourceTree = "<group>"; };
+		421AB08F1CE70CD1000CF23A /* OpenSSLFunctions.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = OpenSSLFunctions.c; sourceTree = "<group>"; };
+		421AB0901CE70CD1000CF23A /* OpenSSLFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenSSLFunctions.h; sourceTree = "<group>"; };
+		421AB0981CE70DA3000CF23A /* challenge10 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = challenge10; sourceTree = BUILT_PRODUCTS_DIR; };
+		42ABE98D1CED8B2100A4CEA2 /* challenge11 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = challenge11; sourceTree = BUILT_PRODUCTS_DIR; };
+		42ABE98F1CED8B2100A4CEA2 /* challenge11.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = challenge11.c; path = ../challenge11/challenge11.c; sourceTree = "<group>"; };
+		42ABE9981CED8B4600A4CEA2 /* challenge12 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = challenge12; sourceTree = BUILT_PRODUCTS_DIR; };
+		42ABE99A1CED8B4600A4CEA2 /* challenge12.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = challenge12.c; path = ../challenge12/challenge12.c; sourceTree = "<group>"; };
+		42B961F51CBCE4F500E7413B /* 4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 4.txt; sourceTree = "<group>"; };
+		42BB0ED81CCCCADE00D9BDAF /* 6.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 6.txt; sourceTree = "<group>"; };
+		42BB0ED91CCCCBC800D9BDAF /* challenge1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = challenge1.c; sourceTree = "<group>"; };
+		42BB0EDB1CCCCC9900D9BDAF /* challenge6.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = challenge6.c; sourceTree = "<group>"; };
+		42BB0EDD1CCCCD4600D9BDAF /* challenge5.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = challenge5.c; sourceTree = "<group>"; };
+		42BB0EDF1CCCCDA700D9BDAF /* challenge2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = challenge2.c; sourceTree = "<group>"; };
+		42BB0EE11CCCCDDC00D9BDAF /* challenge3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = challenge3.c; sourceTree = "<group>"; };
+		42BB0EE31CCCCDEC00D9BDAF /* challenge4.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = challenge4.c; sourceTree = "<group>"; };
+		42BB0EE61CCE0E8F00D9BDAF /* CryptoUtils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CryptoUtils.c; sourceTree = "<group>"; };
+		42BB0EE71CCE0E8F00D9BDAF /* CryptoUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CryptoUtils.h; sourceTree = "<group>"; };
+		42BB0EE91CCE113C00D9BDAF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		421AAFF01CE3694F000CF23A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		421AAFFD1CE42DD3000CF23A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		421AB00A1CE42FCC000CF23A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		421AB01C1CE4466C000CF23A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				421AB0771CE6F424000CF23A /* libcrypto.a in Frameworks */,
+				421AB0781CE6F426000CF23A /* libssl.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		421AB02A1CE44DDC000CF23A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		421AB0381CE4527B000CF23A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		421AB0461CE4746D000CF23A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				421AB0611CE4D59D000CF23A /* libcrypto.a in Frameworks */,
+				421AB05F1CE4D006000CF23A /* libssl.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		421AB0661CE57457000CF23A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		421AB07A1CE6F799000CF23A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		421AB0951CE70DA3000CF23A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				421AB0A21CE70DC0000CF23A /* libssl.a in Frameworks */,
+				421AB0A11CE70DBE000CF23A /* libcrypto.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42ABE98A1CED8B2100A4CEA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42ABE9A21CED8B7800A4CEA2 /* libcrypto.a in Frameworks */,
+				42ABE9A31CED8B7900A4CEA2 /* libssl.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42ABE9951CED8B4600A4CEA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42ABE9A71CED8B8D00A4CEA2 /* libcrypto.a in Frameworks */,
+				42ABE9A81CED8B8F00A4CEA2 /* libssl.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		420A54221CBB4C35009833EA = {
+			isa = PBXGroup;
+			children = (
+				420A542D1CBB4C35009833EA /* CryptoChallenge */,
+				420A542C1CBB4C35009833EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		420A542C1CBB4C35009833EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				421AAFF31CE3694F000CF23A /* challenge1.1 */,
+				421AB0001CE42DD3000CF23A /* challenge1.2 */,
+				421AB00D1CE42FCC000CF23A /* challenge1.3 */,
+				421AB01F1CE4466C000CF23A /* challenge1.4 */,
+				421AB02D1CE44DDC000CF23A /* challenge1.5 */,
+				421AB03B1CE4527B000CF23A /* challenge1.6 */,
+				421AB0491CE4746D000CF23A /* challenge1.7 */,
+				421AB0691CE57457000CF23A /* challenge1.8 */,
+				421AB07D1CE6F799000CF23A /* challenge9 */,
+				421AB0981CE70DA3000CF23A /* challenge10 */,
+				42ABE98D1CED8B2100A4CEA2 /* challenge11 */,
+				42ABE9981CED8B4600A4CEA2 /* challenge12 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		420A542D1CBB4C35009833EA /* CryptoChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				421AB0A71CE71236000CF23A /* Libraries */,
+				421AB08E1CE70027000CF23A /* Utilitity functions */,
+				421AB08D1CE7001C000CF23A /* Solutions */,
+				421AB08C1CE70011000CF23A /* Main functions */,
+				421AB0541CE474DB000CF23A /* Data files */,
+				42BB0EE91CCE113C00D9BDAF /* README.md */,
+			);
+			name = CryptoChallenge;
+			path = CryptoChallange;
+			sourceTree = "<group>";
+		};
+		421AB0541CE474DB000CF23A /* Data files */ = {
+			isa = PBXGroup;
+			children = (
+				42B961F51CBCE4F500E7413B /* 4.txt */,
+				42BB0ED81CCCCADE00D9BDAF /* 6.txt */,
+				421AB0551CE475BE000CF23A /* 7.txt */,
+				421AB0761CE5A218000CF23A /* 8.txt */,
+				421AB08B1CE6FFEF000CF23A /* 10.txt */,
+			);
+			name = "Data files";
+			sourceTree = "<group>";
+		};
+		421AB08C1CE70011000CF23A /* Main functions */ = {
+			isa = PBXGroup;
+			children = (
+				42BB0ED91CCCCBC800D9BDAF /* challenge1.c */,
+				42BB0EDF1CCCCDA700D9BDAF /* challenge2.c */,
+				42BB0EE11CCCCDDC00D9BDAF /* challenge3.c */,
+				42BB0EE31CCCCDEC00D9BDAF /* challenge4.c */,
+				42BB0EDD1CCCCD4600D9BDAF /* challenge5.c */,
+				42BB0EDB1CCCCC9900D9BDAF /* challenge6.c */,
+				421AB0501CE47498000CF23A /* challenge7.c */,
+				421AB0621CE573B5000CF23A /* challenge8.c */,
+				421AB0861CE6F7C2000CF23A /* challenge9.c */,
+				421AB08A1CE6FF3A000CF23A /* challenge10.c */,
+				42ABE98F1CED8B2100A4CEA2 /* challenge11.c */,
+				42ABE99A1CED8B4600A4CEA2 /* challenge12.c */,
+			);
+			name = "Main functions";
+			sourceTree = "<group>";
+		};
+		421AB08D1CE7001C000CF23A /* Solutions */ = {
+			isa = PBXGroup;
+			children = (
+				420A54371CBB4C9C009833EA /* CryptoChallenges.h */,
+				421AB0171CE437ED000CF23A /* CryptoChallenges.c */,
+				421AB0901CE70CD1000CF23A /* OpenSSLFunctions.h */,
+				421AB08F1CE70CD1000CF23A /* OpenSSLFunctions.c */,
+			);
+			name = Solutions;
+			sourceTree = "<group>";
+		};
+		421AB08E1CE70027000CF23A /* Utilitity functions */ = {
+			isa = PBXGroup;
+			children = (
+				42BB0EE71CCE0E8F00D9BDAF /* CryptoUtils.h */,
+				42BB0EE61CCE0E8F00D9BDAF /* CryptoUtils.c */,
+			);
+			name = "Utilitity functions";
+			sourceTree = "<group>";
+		};
+		421AB0A71CE71236000CF23A /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				421AB0601CE4D59D000CF23A /* libcrypto.a */,
+				421AB05E1CE4D006000CF23A /* libssl.a */,
+			);
+			name = Libraries;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		421AAFF21CE3694F000CF23A /* challenge1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 421AAFF71CE3694F000CF23A /* Build configuration list for PBXNativeTarget "challenge1" */;
+			buildPhases = (
+				421AAFEF1CE3694F000CF23A /* Sources */,
+				421AAFF01CE3694F000CF23A /* Frameworks */,
+				421AAFF11CE3694F000CF23A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = challenge1;
+			productName = challange1.1;
+			productReference = 421AAFF31CE3694F000CF23A /* challenge1.1 */;
+			productType = "com.apple.product-type.tool";
+		};
+		421AAFFF1CE42DD3000CF23A /* challenge2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 421AB0061CE42DD3000CF23A /* Build configuration list for PBXNativeTarget "challenge2" */;
+			buildPhases = (
+				421AAFFC1CE42DD3000CF23A /* Sources */,
+				421AAFFD1CE42DD3000CF23A /* Frameworks */,
+				421AAFFE1CE42DD3000CF23A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = challenge2;
+			productName = challenge1.2;
+			productReference = 421AB0001CE42DD3000CF23A /* challenge1.2 */;
+			productType = "com.apple.product-type.tool";
+		};
+		421AB00C1CE42FCC000CF23A /* challenge3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 421AB0111CE42FCC000CF23A /* Build configuration list for PBXNativeTarget "challenge3" */;
+			buildPhases = (
+				421AB0091CE42FCC000CF23A /* Sources */,
+				421AB00A1CE42FCC000CF23A /* Frameworks */,
+				421AB00B1CE42FCC000CF23A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = challenge3;
+			productName = challenge1.3;
+			productReference = 421AB00D1CE42FCC000CF23A /* challenge1.3 */;
+			productType = "com.apple.product-type.tool";
+		};
+		421AB01E1CE4466C000CF23A /* challenge4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 421AB0231CE4466C000CF23A /* Build configuration list for PBXNativeTarget "challenge4" */;
+			buildPhases = (
+				421AB01B1CE4466C000CF23A /* Sources */,
+				421AB01C1CE4466C000CF23A /* Frameworks */,
+				421AB01D1CE4466C000CF23A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = challenge4;
+			productName = challenge1.4;
+			productReference = 421AB01F1CE4466C000CF23A /* challenge1.4 */;
+			productType = "com.apple.product-type.tool";
+		};
+		421AB02C1CE44DDC000CF23A /* challenge5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 421AB0311CE44DDC000CF23A /* Build configuration list for PBXNativeTarget "challenge5" */;
+			buildPhases = (
+				421AB0291CE44DDC000CF23A /* Sources */,
+				421AB02A1CE44DDC000CF23A /* Frameworks */,
+				421AB02B1CE44DDC000CF23A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = challenge5;
+			productName = challenge1.5;
+			productReference = 421AB02D1CE44DDC000CF23A /* challenge1.5 */;
+			productType = "com.apple.product-type.tool";
+		};
+		421AB03A1CE4527B000CF23A /* challenge6 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 421AB03F1CE4527B000CF23A /* Build configuration list for PBXNativeTarget "challenge6" */;
+			buildPhases = (
+				421AB0371CE4527B000CF23A /* Sources */,
+				421AB0381CE4527B000CF23A /* Frameworks */,
+				421AB0391CE4527B000CF23A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = challenge6;
+			productName = challenge1.6;
+			productReference = 421AB03B1CE4527B000CF23A /* challenge1.6 */;
+			productType = "com.apple.product-type.tool";
+		};
+		421AB0481CE4746D000CF23A /* challenge7 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 421AB04D1CE4746D000CF23A /* Build configuration list for PBXNativeTarget "challenge7" */;
+			buildPhases = (
+				421AB0451CE4746D000CF23A /* Sources */,
+				421AB0461CE4746D000CF23A /* Frameworks */,
+				421AB0471CE4746D000CF23A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = challenge7;
+			productName = challenge1.7;
+			productReference = 421AB0491CE4746D000CF23A /* challenge1.7 */;
+			productType = "com.apple.product-type.tool";
+		};
+		421AB0681CE57457000CF23A /* challenge8 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 421AB06D1CE57457000CF23A /* Build configuration list for PBXNativeTarget "challenge8" */;
+			buildPhases = (
+				421AB0651CE57457000CF23A /* Sources */,
+				421AB0661CE57457000CF23A /* Frameworks */,
+				421AB0671CE57457000CF23A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = challenge8;
+			productName = challenge1.8;
+			productReference = 421AB0691CE57457000CF23A /* challenge1.8 */;
+			productType = "com.apple.product-type.tool";
+		};
+		421AB07C1CE6F799000CF23A /* challenge9 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 421AB0811CE6F799000CF23A /* Build configuration list for PBXNativeTarget "challenge9" */;
+			buildPhases = (
+				421AB0791CE6F799000CF23A /* Sources */,
+				421AB07A1CE6F799000CF23A /* Frameworks */,
+				421AB07B1CE6F799000CF23A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = challenge9;
+			productName = challenge9;
+			productReference = 421AB07D1CE6F799000CF23A /* challenge9 */;
+			productType = "com.apple.product-type.tool";
+		};
+		421AB0971CE70DA3000CF23A /* challenge10 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 421AB09C1CE70DA3000CF23A /* Build configuration list for PBXNativeTarget "challenge10" */;
+			buildPhases = (
+				421AB0941CE70DA3000CF23A /* Sources */,
+				421AB0951CE70DA3000CF23A /* Frameworks */,
+				421AB0961CE70DA3000CF23A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = challenge10;
+			productName = challenge10;
+			productReference = 421AB0981CE70DA3000CF23A /* challenge10 */;
+			productType = "com.apple.product-type.tool";
+		};
+		42ABE98C1CED8B2100A4CEA2 /* challenge11 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42ABE9931CED8B2100A4CEA2 /* Build configuration list for PBXNativeTarget "challenge11" */;
+			buildPhases = (
+				42ABE9891CED8B2100A4CEA2 /* Sources */,
+				42ABE98A1CED8B2100A4CEA2 /* Frameworks */,
+				42ABE98B1CED8B2100A4CEA2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = challenge11;
+			productName = challenge11;
+			productReference = 42ABE98D1CED8B2100A4CEA2 /* challenge11 */;
+			productType = "com.apple.product-type.tool";
+		};
+		42ABE9971CED8B4600A4CEA2 /* challenge12 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42ABE99C1CED8B4600A4CEA2 /* Build configuration list for PBXNativeTarget "challenge12" */;
+			buildPhases = (
+				42ABE9941CED8B4600A4CEA2 /* Sources */,
+				42ABE9951CED8B4600A4CEA2 /* Frameworks */,
+				42ABE9961CED8B4600A4CEA2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = challenge12;
+			productName = challenge12;
+			productReference = 42ABE9981CED8B4600A4CEA2 /* challenge12 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		420A54231CBB4C35009833EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Duff Development";
+				TargetAttributes = {
+					421AAFF21CE3694F000CF23A = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					421AAFFF1CE42DD3000CF23A = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					421AB00C1CE42FCC000CF23A = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					421AB01E1CE4466C000CF23A = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					421AB02C1CE44DDC000CF23A = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					421AB03A1CE4527B000CF23A = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					421AB0481CE4746D000CF23A = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					421AB0681CE57457000CF23A = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					421AB07C1CE6F799000CF23A = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					421AB0971CE70DA3000CF23A = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					42ABE98C1CED8B2100A4CEA2 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					42ABE9971CED8B4600A4CEA2 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 420A54261CBB4C35009833EA /* Build configuration list for PBXProject "CryptoChallenge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 420A54221CBB4C35009833EA;
+			productRefGroup = 420A542C1CBB4C35009833EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				421AAFF21CE3694F000CF23A /* challenge1 */,
+				421AAFFF1CE42DD3000CF23A /* challenge2 */,
+				421AB00C1CE42FCC000CF23A /* challenge3 */,
+				421AB01E1CE4466C000CF23A /* challenge4 */,
+				421AB02C1CE44DDC000CF23A /* challenge5 */,
+				421AB03A1CE4527B000CF23A /* challenge6 */,
+				421AB0481CE4746D000CF23A /* challenge7 */,
+				421AB0681CE57457000CF23A /* challenge8 */,
+				421AB07C1CE6F799000CF23A /* challenge9 */,
+				421AB0971CE70DA3000CF23A /* challenge10 */,
+				42ABE98C1CED8B2100A4CEA2 /* challenge11 */,
+				42ABE9971CED8B4600A4CEA2 /* challenge12 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		421AAFEF1CE3694F000CF23A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				421AAFFB1CE369EF000CF23A /* CryptoUtils.c in Sources */,
+				421AB0181CE437ED000CF23A /* CryptoChallenges.c in Sources */,
+				421AAFFA1CE3695E000CF23A /* challenge1.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		421AAFFC1CE42DD3000CF23A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				421AB0071CE42DDF000CF23A /* CryptoUtils.c in Sources */,
+				421AB0191CE437ED000CF23A /* CryptoChallenges.c in Sources */,
+				421AB0081CE42DE7000CF23A /* challenge2.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		421AB0091CE42FCC000CF23A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				421AB0141CE42FD5000CF23A /* CryptoUtils.c in Sources */,
+				421AB01A1CE437ED000CF23A /* CryptoChallenges.c in Sources */,
+				421AB0151CE42FD9000CF23A /* challenge3.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		421AB01B1CE4466C000CF23A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				421AB0271CE4467A000CF23A /* CryptoUtils.c in Sources */,
+				421AB0261CE44676000CF23A /* CryptoChallenges.c in Sources */,
+				421AB0281CE4467D000CF23A /* challenge4.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		421AB0291CE44DDC000CF23A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				421AB0351CE44DE9000CF23A /* CryptoUtils.c in Sources */,
+				421AB0341CE44DE6000CF23A /* CryptoChallenges.c in Sources */,
+				421AB0361CE44DEE000CF23A /* challenge5.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		421AB0371CE4527B000CF23A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				421AB0431CE45286000CF23A /* CryptoUtils.c in Sources */,
+				421AB0421CE45282000CF23A /* CryptoChallenges.c in Sources */,
+				421AB0441CE4528B000CF23A /* challenge6.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		421AB0451CE4746D000CF23A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				421AB0921CE70D8F000CF23A /* OpenSSLFunctions.c in Sources */,
+				421AB0521CE474C4000CF23A /* CryptoUtils.c in Sources */,
+				421AB0531CE474CB000CF23A /* CryptoChallenges.c in Sources */,
+				421AB0511CE47498000CF23A /* challenge7.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		421AB0651CE57457000CF23A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				421AB0721CE57467000CF23A /* CryptoUtils.c in Sources */,
+				421AB0711CE57463000CF23A /* challenge8.c in Sources */,
+				421AB0701CE5745F000CF23A /* CryptoChallenges.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		421AB0791CE6F799000CF23A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				421AB0851CE6F7A5000CF23A /* CryptoChallenges.c in Sources */,
+				421AB0841CE6F7A1000CF23A /* CryptoUtils.c in Sources */,
+				421AB0871CE6F7C2000CF23A /* challenge9.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		421AB0941CE70DA3000CF23A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				421AB0A61CE711D0000CF23A /* CryptoUtils.c in Sources */,
+				421AB0A81CE71B57000CF23A /* CryptoChallenges.c in Sources */,
+				421AB0A01CE70DBA000CF23A /* OpenSSLFunctions.c in Sources */,
+				421AB09F1CE70DB6000CF23A /* challenge10.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42ABE9891CED8B2100A4CEA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42ABE9A11CED8B6F00A4CEA2 /* OpenSSLFunctions.c in Sources */,
+				42ABE9A01CED8B6B00A4CEA2 /* CryptoChallenges.c in Sources */,
+				42ABE99F1CED8B6800A4CEA2 /* CryptoUtils.c in Sources */,
+				42ABE9901CED8B2100A4CEA2 /* challenge11.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42ABE9941CED8B4600A4CEA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42ABE9A61CED8B8A00A4CEA2 /* OpenSSLFunctions.c in Sources */,
+				42ABE9A51CED8B8400A4CEA2 /* CryptoUtils.c in Sources */,
+				42ABE9A41CED8B8000A4CEA2 /* CryptoChallenges.c in Sources */,
+				42ABE99B1CED8B4600A4CEA2 /* challenge12.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		420A54301CBB4C35009833EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/ssl/include/,
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				"LIBRARY_SEARCH_PATHS[arch=*]" = /usr/local/ssl/lib/;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		420A54311CBB4C35009833EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/ssl/include/,
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		421AAFF81CE3694F000CF23A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		421AAFF91CE3694F000CF23A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		421AB0041CE42DD3000CF23A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		421AB0051CE42DD3000CF23A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		421AB0121CE42FCC000CF23A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		421AB0131CE42FCC000CF23A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		421AB0241CE4466C000CF23A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/ssl/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		421AB0251CE4466C000CF23A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/ssl/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		421AB0321CE44DDC000CF23A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		421AB0331CE44DDC000CF23A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		421AB0401CE4527B000CF23A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		421AB0411CE4527B000CF23A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		421AB04E1CE4746D000CF23A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					/usr/local/ssl/include/,
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				"HEADER_SEARCH_PATHS[arch=*]" = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/ssl/lib/,
+					/usr/local/ssl/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		421AB04F1CE4746D000CF23A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/ssl/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		421AB06E1CE57457000CF23A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/ssl/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		421AB06F1CE57457000CF23A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/ssl/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		421AB0821CE6F799000CF23A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/ssl/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		421AB0831CE6F799000CF23A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/ssl/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		421AB09D1CE70DA3000CF23A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/ssl/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		421AB09E1CE70DA3000CF23A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/ssl/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		42ABE9911CED8B2100A4CEA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/ssl/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		42ABE9921CED8B2100A4CEA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/ssl/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		42ABE99D1CED8B4600A4CEA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/ssl/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		42ABE99E1CED8B4600A4CEA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/ssl/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		420A54261CBB4C35009833EA /* Build configuration list for PBXProject "CryptoChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				420A54301CBB4C35009833EA /* Debug */,
+				420A54311CBB4C35009833EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		421AAFF71CE3694F000CF23A /* Build configuration list for PBXNativeTarget "challenge1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421AAFF81CE3694F000CF23A /* Debug */,
+				421AAFF91CE3694F000CF23A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		421AB0061CE42DD3000CF23A /* Build configuration list for PBXNativeTarget "challenge2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421AB0041CE42DD3000CF23A /* Debug */,
+				421AB0051CE42DD3000CF23A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		421AB0111CE42FCC000CF23A /* Build configuration list for PBXNativeTarget "challenge3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421AB0121CE42FCC000CF23A /* Debug */,
+				421AB0131CE42FCC000CF23A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		421AB0231CE4466C000CF23A /* Build configuration list for PBXNativeTarget "challenge4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421AB0241CE4466C000CF23A /* Debug */,
+				421AB0251CE4466C000CF23A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		421AB0311CE44DDC000CF23A /* Build configuration list for PBXNativeTarget "challenge5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421AB0321CE44DDC000CF23A /* Debug */,
+				421AB0331CE44DDC000CF23A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		421AB03F1CE4527B000CF23A /* Build configuration list for PBXNativeTarget "challenge6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421AB0401CE4527B000CF23A /* Debug */,
+				421AB0411CE4527B000CF23A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		421AB04D1CE4746D000CF23A /* Build configuration list for PBXNativeTarget "challenge7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421AB04E1CE4746D000CF23A /* Debug */,
+				421AB04F1CE4746D000CF23A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		421AB06D1CE57457000CF23A /* Build configuration list for PBXNativeTarget "challenge8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421AB06E1CE57457000CF23A /* Debug */,
+				421AB06F1CE57457000CF23A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		421AB0811CE6F799000CF23A /* Build configuration list for PBXNativeTarget "challenge9" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421AB0821CE6F799000CF23A /* Debug */,
+				421AB0831CE6F799000CF23A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		421AB09C1CE70DA3000CF23A /* Build configuration list for PBXNativeTarget "challenge10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421AB09D1CE70DA3000CF23A /* Debug */,
+				421AB09E1CE70DA3000CF23A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42ABE9931CED8B2100A4CEA2 /* Build configuration list for PBXNativeTarget "challenge11" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42ABE9911CED8B2100A4CEA2 /* Debug */,
+				42ABE9921CED8B2100A4CEA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		42ABE99C1CED8B4600A4CEA2 /* Build configuration list for PBXNativeTarget "challenge12" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42ABE99D1CED8B4600A4CEA2 /* Debug */,
+				42ABE99E1CED8B4600A4CEA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 420A54231CBB4C35009833EA /* Project object */;
+}
